@@ -13,6 +13,10 @@ function App() {
   const test3 = () => {
     console.log("launch the application 3");
   }
+
+  const test4 = () => {
+    console.log("launch the application 4");
+  }
   return (
     <div className="App">
       <header className="App-header">
