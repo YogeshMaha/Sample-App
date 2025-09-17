@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+  const test = () => {
+    console.log('Application Launched.');
+  }
 
   return (
     <div className="App">
