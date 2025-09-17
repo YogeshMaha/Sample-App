@@ -3,6 +3,9 @@ import './App.css';
 
 function App() {
   
+  const test = () => {
+    console.log("Launch the Application.");
+  }
 
   return (
     <div className="App">
