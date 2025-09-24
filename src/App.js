@@ -3,17 +3,14 @@ import './App.css';
 
 function App() {
   
-  const test1 = () => {
-    console.log('Application Launched1.');
-  }
+  const logApplicationLaunch = (message) => {
+    console.log(message);
+  };
 
-  const test2 = () => {
-    console.log('Application Launched2.');
-  }
-
-  const test3 = () => {
-    console.log('Application Launched3.');
-  }
+  // Example usage of the logging function
+  logApplicationLaunch('Application Launched1.');
+  logApplicationLaunch('Application Launched2.');
+  
 
   return (
     <div className="App">
