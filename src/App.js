@@ -11,7 +11,11 @@ function App() {
     console.log('Application Launched2.');
   }
 
-   const test3 = () => {
+  const test3 = () => {
+    console.log('Application Launched2.');
+  }
+
+  const test4 = () => {
     console.log('Application Launched2.');
   }
 
