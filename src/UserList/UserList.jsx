@@ -4,7 +4,9 @@ import './UserList.css';
 function UserList() {
   const [users, setUsers] = useState([
     { id: 1, name: 'Alice', salary: 50000 },
-    { id: 2, name: 'Bob', salary: 60000 }
+    { id: 2, name: 'Bob', salary: 60000 },
+    { id: 3, name: 'Charlie', salary: 45000 },
+    { id: 4, name: 'David', salary: 70000 }
   ]);
   const [newName, setNewName] = useState('');
   const [newSalary, setNewSalary] = useState('');
