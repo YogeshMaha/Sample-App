@@ -11,9 +11,10 @@ function App() {
     console.log('Application Launched2.');
   }
 
-  const test3 = () => {
-    console.log('Application Launched3.');
+  const test4 = () => {
+    console.log('Application Launched4.');
   }
+  
 
   return (
     <div className="App">
