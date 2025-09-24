@@ -15,7 +15,7 @@ function App() {
     console.log('Application Launched2.');
   }
 
-  const test4 = () => {
+  const test5 = () => {
     console.log('Application Launched2.');
   }
 
