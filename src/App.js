@@ -3,8 +3,12 @@ import './App.css';
 
 function App() {
   
-  const test = () => {
-    console.log('Application Launched.');
+  const test1 = () => {
+    console.log('Application Launched1.');
+  }
+
+  const test2 = () => {
+    console.log('Application Launched2.');
   }
 
   return (
