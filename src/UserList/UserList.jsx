@@ -46,11 +46,7 @@ function UserList() {
     setEditSalary('');
   };
 
-  const calculateAverageSalary = () => {
-    if (users.length === 0) return 0;
-    const total = users.reduce((sum, user) => sum + user.salary, 0);
-    return (total / users.length).toFixed(2);
-  };
+  
 
   return (
     <div className="user-container">
