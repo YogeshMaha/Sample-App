@@ -11,6 +11,10 @@ function App() {
   logApplicationLaunch('Application Launched1.');
   logApplicationLaunch('Application Launched2.');
 
+   const test6 = () => {
+    console.log('Application Launched2.');
+  }
+
   return (
     <div className="App">
       <header className="App-header">
