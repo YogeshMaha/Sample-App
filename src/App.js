@@ -11,9 +11,6 @@ function App() {
   logApplicationLaunch('Application Launched1.');
   logApplicationLaunch('Application Launched2.');
 
-  const Test = () => {
-    console.log('Application Launched3.');
-  };
 
   return (
     <div className="App">
