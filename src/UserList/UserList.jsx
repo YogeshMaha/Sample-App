@@ -52,6 +52,11 @@ function UserList() {
     return (total / users.length).toFixed(2);
   };
 
+  const calculateAverageSalary1 = () => {
+    if (users.length === 0) return 0;
+    const total = users.reduce((sum, user) => sum + user.salary, 0);
+    return (total / users.length).toFixed(2);
+  };
 
   return (
     <div className="user-container">
